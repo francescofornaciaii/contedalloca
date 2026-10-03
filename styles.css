@@ -128,7 +128,7 @@
   .hero-signature{align-items:flex-start;gap:0;text-align:left}
   .hero-signature-right{align-items:flex-end;text-align:right}
   .hero-logo{display:none}
-  .hero-signature:first-child .hero-logo{display:block;position:absolute;top:50%;left:50%;width:clamp(28px,9vw,40px);transform:translate(-50%,-50%);pointer-events:none}
+  .hero-signature:first-child .hero-logo{display:block;position:absolute;top:50%;left:calc(50% - clamp(6px,2vw,9px));width:clamp(30px,10vw,44px);transform:translate(-50%,-50%);pointer-events:none}
   .primary-nav{top:calc(125vw - 68px);bottom:auto;left:var(--gutter);right:var(--gutter);display:flex;justify-content:space-between;height:44px;gap:5px;text-align:center}
   .primary-nav a{display:flex;align-items:center;min-height:44px;font-size:clamp(10px,2.6vw,12px);letter-spacing:.035em}
   .best-section{padding-top:50px}

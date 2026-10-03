@@ -4,7 +4,9 @@ Revisione della disposizione del logo su mobile
 La hero mobile riprende la disposizione precedente ai loghi:
 foto e titolo, menu su una riga nella sfumatura, etichette ai lati.
 Nella hero mobile una piccola oca non specchiata guarda verso destra,
-centrata tra Italian model e Available worldwide. Larghezza: 29-40 px.
+bilanciata tra Italian model e Available worldwide con una correzione
+verso sinistra di 6-9 px. Larghezza sui viewport verificati: 32-44 px.
+Sul viewport da 390 px: larghezza 39 px e spostamento a sinistra di 7.81 px.
 Un'altra oca compare accanto a inquiries nei contatti, larga da 58 a 80 px.
 
 Controlli correnti eseguiti nel browser Chromium con viewport espliciti:
@@ -15,7 +17,8 @@ Confronto della geometria desktop a 1920x1080 prima e dopo la modifica.
 Esito dei controlli correnti:
 - Nessuno scorrimento orizzontale della pagina.
 - Menu su una riga, senza sovrapposizioni, link alti almeno 44 px.
-- Una sola oca visibile nella hero mobile, con centratura orizzontale esatta.
+- Una sola oca visibile nella hero mobile, con correzione ottica verso sinistra.
+- Logo interamente entro la hero su tutti i viewport controllati.
 - Nessuna sovrapposizione dell'oca con etichette o menu.
 - Trasformazione del logo senza specchiatura orizzontale.
 - Logo nei contatti entro la dimensione massima di 80 px.
