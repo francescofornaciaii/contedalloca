@@ -1,0 +1,20 @@
+VERIFICA RESPONSIVE - 3 OTTOBRE 2026
+
+Controlli eseguiti nel browser Chromium con viewport espliciti:
+320x568, 340x640, 360x640, 375x812, 390x844,
+414x896, 430x932, 600x960, 700x1000 e 844x390 (orizzontale).
+
+Esito: nessuno scorrimento orizzontale della pagina, nessuna
+sovrapposizione delle voci del menu, titoli e contatti entro lo schermo.
+Font Cormorant Garamond caricato. Gallerie su due colonne in verticale.
+La barra delle categorie scorre orizzontalmente all'interno della pagina.
+Controllati apertura, avanzamento e chiusura della galleria fotografica,
+anche con una didascalia commerciale lunga sul viewport da 320 pixel.
+
+Correzioni:
+- Sotto 360 pixel, menu su una riga separata sotto i loghi della hero.
+- Sotto 360 pixel, email dimensionata per restare su una riga con la freccia.
+- La composizione approvata da 360 pixel in su resta invariata.
+
+Questi controlli verificano la resa nel browser alle dimensioni indicate.
+Non costituiscono una prova su dispositivi fisici, Safari iOS o gesti touch reali.
