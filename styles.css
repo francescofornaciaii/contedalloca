@@ -122,12 +122,13 @@
 .contact-layout .socials{grid-area:social;margin:0}
 .contact-logo{grid-area:emblem;display:block;width:100%;max-width:460px;height:auto;justify-self:end;align-self:center;transform:scaleX(-1)}
 @media(max-width:700px){
-  /* Restore the original mobile hero; keep one restrained emblem at contact. */
+  /* Keep the mobile hero compact, with one unmirrored emblem between its labels. */
   .hero{height:calc(125vw + 40px)}
   .hero-meta{bottom:17px;display:flex;justify-content:space-between;gap:8px}
   .hero-signature{align-items:flex-start;gap:0;text-align:left}
   .hero-signature-right{align-items:flex-end;text-align:right}
   .hero-logo{display:none}
+  .hero-signature:first-child .hero-logo{display:block;position:absolute;top:50%;left:50%;width:clamp(28px,9vw,40px);transform:translate(-50%,-50%);pointer-events:none}
   .primary-nav{top:calc(125vw - 68px);bottom:auto;left:var(--gutter);right:var(--gutter);display:flex;justify-content:space-between;height:44px;gap:5px;text-align:center}
   .primary-nav a{display:flex;align-items:center;min-height:44px;font-size:clamp(10px,2.6vw,12px);letter-spacing:.035em}
   .best-section{padding-top:50px}

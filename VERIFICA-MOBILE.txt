@@ -3,9 +3,9 @@ Revisione della disposizione del logo su mobile
 
 La hero mobile riprende la disposizione precedente ai loghi:
 foto e titolo, menu su una riga nella sfumatura, etichette ai lati.
-Le due oche della hero sono nascoste fino a 700 pixel di larghezza.
-Una sola oca compare accanto a inquiries nei contatti, larga da 58 a 80 px.
-La dimensione esatta varia da 57.59 px a 80 px con la larghezza dello schermo.
+Nella hero mobile una piccola oca non specchiata guarda verso destra,
+centrata tra Italian model e Available worldwide. Larghezza: 29-40 px.
+Un'altra oca compare accanto a inquiries nei contatti, larga da 58 a 80 px.
 
 Controlli correnti eseguiti nel browser Chromium con viewport espliciti:
 320x569, 360x640, 390x693, 430x764, 600x1067 e 700x1244.
@@ -15,11 +15,13 @@ Confronto della geometria desktop a 1920x1080 prima e dopo la modifica.
 Esito dei controlli correnti:
 - Nessuno scorrimento orizzontale della pagina.
 - Menu su una riga, senza sovrapposizioni, link alti almeno 44 px.
-- Entrambe le oche della hero nascoste su mobile.
+- Una sola oca visibile nella hero mobile, con centratura orizzontale esatta.
+- Nessuna sovrapposizione dell'oca con etichette o menu.
+- Trasformazione del logo senza specchiatura orizzontale.
 - Logo nei contatti entro la dimensione massima di 80 px.
 - Email entro la larghezza dello schermo, anche a 320 px.
 - Sfondo e soggetto hanno la stessa geometria.
-- Geometria desktop di hero, menu, etichette e loghi identica a prima.
+- L'aggiunta del logo centrale usa solo la media query mobile.
 
 La galleria fotografica non e stata modificata in questa revisione.
 Nella verifica precedente erano stati controllati apertura, avanzamento e
