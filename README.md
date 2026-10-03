@@ -2,7 +2,7 @@
 
 Portfolio fotografico completo: 87 foto nell’archivio, 10 best shots e cinque categorie. Include hero desktop/mobile, soggetto a colori su sfondo in bianco e nero, loghi dell’oca e Cormorant Garamond locale con licenza.
 
-Su mobile la hero mantiene foto e titolo, menu su una riga nella sfumatura e due etichette ai lati. Una piccola oca non specchiata, larga 32–44 px sui formati verificati, è bilanciata visivamente tra Italian model e Available worldwide con uno spostamento di 6–9 px verso sinistra. Il bordo inferiore del logo è allineato al bordo inferiore delle etichette. Nei contatti un’altra oca, larga 58–80 px, accompagna inquiries. La disposizione desktop resta invariata.
+Su mobile la hero mantiene foto e titolo, menu su una riga nella sfumatura e due etichette ai lati. Una piccola oca non specchiata, larga 32–44 px sui formati verificati, è bilanciata visivamente tra Italian model e Available worldwide con uno spostamento di 6–9 px verso sinistra. Il bordo inferiore del logo è allineato al bordo inferiore delle etichette. Nei contatti un’oca specchiata affianca inquiries su mobile, larga 44–72 px e distante 20–36 px dal titolo; su desktop è centrata nella colonna destra, alla stessa altezza del titolo, con larghezza 140–248 px. La hero desktop resta invariata.
 
 ## Deploy su Vercel
 
@@ -33,4 +33,4 @@ Contatto: `contedalloca@gmail.com`. Il link `mailto:` apre il gestore email conf
 
 `MANIFEST-SITO.json` elenca i 187 file del sito con dimensioni e SHA-256. La copia caricata coincide con il sito del pacchetto di consegna verificato.
 
-`VERIFICA-MOBILE.txt` riporta i controlli su dieci viewport del browser, le correzioni per schermi stretti e i limiti della verifica su dispositivi fisici.
+`VERIFICA-MOBILE.txt` riporta i controlli dei contatti su undici viewport del browser, le verifiche precedenti della hero e i limiti della verifica su dispositivi fisici.

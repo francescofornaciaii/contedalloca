@@ -1,5 +1,5 @@
 VERIFICA RESPONSIVE - 3 OTTOBRE 2026
-Revisione della disposizione del logo su mobile
+Revisione dei loghi nella hero mobile e nei contatti
 
 La hero mobile riprende la disposizione precedente ai loghi:
 foto e titolo, menu su una riga nella sfumatura, etichette ai lati.
@@ -10,12 +10,18 @@ Sul viewport da 390 px: larghezza 39 px e spostamento a sinistra di 7.81 px.
 Il bordo inferiore del logo e allineato al bordo inferiore delle due etichette.
 Scarto misurato: 0 px su tutti e sei i viewport verificati.
 La distanza dal menu resta di almeno 10 px sui sei viewport verificati.
-Un'altra oca compare accanto a inquiries nei contatti, larga da 58 a 80 px.
+Nei contatti l'oca specchiata affianca inquiries su mobile, larga da 44 a 72 px,
+con una distanza dal titolo di 20-36 px e centratura verticale rispetto al titolo.
+Su desktop e centrata nella colonna destra alla stessa altezza di inquiries,
+con larghezza da 140 a 248 px.
 
-Controlli correnti eseguiti nel browser Chromium con viewport espliciti:
+Controlli della hero nella revisione precedente, in Chromium con viewport espliciti:
 320x569, 360x640, 390x693, 430x764, 600x1067 e 700x1244.
-Controllo visivo della hero e dei contatti anche a 390x844.
-Confronto della geometria desktop a 1920x1080 prima e dopo la modifica.
+Controlli correnti dei contatti su undici viewport:
+320x569, 360x640, 390x693, 430x764, 600x1067, 700x1244,
+701x1246, 768x1024, 1024x768, 1440x810 e 1920x1080.
+Controllo visivo dei contatti anche a 390x844 e 1920x1080.
+La centratura verticale logo/titolo ha uno scarto inferiore a 0.01 px.
 
 Esito dei controlli correnti:
 - Nessuno scorrimento orizzontale della pagina.
@@ -24,10 +30,11 @@ Esito dei controlli correnti:
 - Logo interamente entro la hero su tutti i viewport controllati.
 - Nessuna sovrapposizione dell'oca con etichette o menu.
 - Trasformazione del logo senza specchiatura orizzontale.
-- Logo nei contatti entro la dimensione massima di 80 px.
+- Logo nei contatti entro la dimensione massima di 72 px su mobile e 248 px su desktop.
+- Nessuna sovrapposizione del logo dei contatti con titolo o email.
 - Email entro la larghezza dello schermo, anche a 320 px.
 - Sfondo e soggetto hanno la stessa geometria.
-- L'aggiunta del logo centrale usa solo la media query mobile.
+- La hero conserva la disposizione approvata nella revisione precedente.
 
 La galleria fotografica non e stata modificata in questa revisione.
 Nella verifica precedente erano stati controllati apertura, avanzamento e
