@@ -13,8 +13,11 @@ La distanza dal menu resta di almeno 10 px sui sei viewport verificati.
 Nei contatti l'oca specchiata occupa l'angolo superiore destro su mobile,
 larga da 96 a 160 px in CSS e da 102 a 160 px sui viewport controllati.
 La distanza dal bordo superiore e 33 px, incluso il bordo di separazione.
-La distanza dal bordo destro segue il margine laterale della sezione.
-Sul viewport da 390 px il logo e largo 124.80 px.
+Il logo e centrato orizzontalmente tra la fine di inquiries e il bordo destro
+dello schermo. Lo scarto dal centro e inferiore a 0.01 px sui sei viewport.
+Sul viewport da 390 px il logo e largo 124.80 px e si e spostato a sinistra
+di 22.70 px rispetto alla revisione precedente.
+Dimensione e altezza del logo, titolo ed email conservano la geometria precedente.
 Su desktop sono state ripristinate esattamente le regole CSS della versione
 27be3ff: oca grande fino a 460 px, allineata a destra e centrata sul blocco contatti.
 

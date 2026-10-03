@@ -2,7 +2,7 @@
 
 Portfolio fotografico completo: 87 foto nell’archivio, 10 best shots e cinque categorie. Include hero desktop/mobile, soggetto a colori su sfondo in bianco e nero, loghi dell’oca e Cormorant Garamond locale con licenza.
 
-Su mobile la hero mantiene foto e titolo, menu su una riga nella sfumatura e due etichette ai lati. Una piccola oca non specchiata, larga 32–44 px sui formati verificati, è bilanciata visivamente tra Italian model e Available worldwide con uno spostamento di 6–9 px verso sinistra. Il bordo inferiore del logo è allineato al bordo inferiore delle etichette. Nei contatti l’oca specchiata occupa l’angolo superiore destro su mobile, con larghezza CSS di 96–160 px e margine laterale coerente con la sezione. Su desktop è ripristinata la disposizione precedente: oca grande fino a 460 px, allineata a destra e centrata sul blocco dei contatti.
+Su mobile la hero mantiene foto e titolo, menu su una riga nella sfumatura e due etichette ai lati. Una piccola oca non specchiata, larga 32–44 px sui formati verificati, è bilanciata visivamente tra Italian model e Available worldwide con uno spostamento di 6–9 px verso sinistra. Il bordo inferiore del logo è allineato al bordo inferiore delle etichette. Nei contatti l’oca specchiata occupa l’angolo superiore destro su mobile, con larghezza CSS di 96–160 px, centrata nello spazio tra la fine di inquiries e il bordo destro dello schermo. Su desktop è ripristinata la disposizione precedente: oca grande fino a 460 px, allineata a destra e centrata sul blocco dei contatti.
 
 ## Deploy su Vercel
 

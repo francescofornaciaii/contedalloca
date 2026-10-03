@@ -133,9 +133,9 @@
   .primary-nav a{display:flex;align-items:center;min-height:44px;font-size:clamp(10px,2.6vw,12px);letter-spacing:.035em}
   .best-section{padding-top:50px}
   .contact-section{position:relative}
-  .contact-layout{grid-template-columns:minmax(0,1fr);grid-template-areas:"title" "email" "social";column-gap:0;row-gap:30px;align-items:start;margin-top:30px}
-  .contact-layout h2{max-width:calc(100% - clamp(96px,32vw,160px) - 24px)}
-  .contact-logo{grid-area:auto;position:absolute;top:32px;right:var(--gutter);width:clamp(96px,32vw,160px);max-width:100%;pointer-events:none}
+  .contact-layout{position:relative;grid-template-columns:max-content minmax(0,1fr);grid-template-areas:"title emblem" "email email" "social social";column-gap:0;row-gap:30px;align-items:start;margin-top:30px;margin-right:calc(-1 * var(--gutter))}
+  .contact-layout h2{max-width:none}
+  .contact-logo{grid-area:emblem;position:absolute;top:-64px;right:auto;width:clamp(96px,32vw,160px);max-width:100%;justify-self:center;pointer-events:none}
 }
 @media(max-width:359px){
   .email-link{font-size:clamp(23px,7.2vw,26px)}
