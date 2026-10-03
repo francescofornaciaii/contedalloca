@@ -928,7 +928,7 @@
     {
       "path": "index.html",
       "bytes": 69859,
-      "sha256": "d6f2b714bfd4e5e55ed5ea4e81890cfdcd382f539c75365fb99fe729c2cc0ccb"
+      "sha256": "d2e13f6e92fa37cca08ba6cabfadf04fd82e90a91beccc3aad85a00fc9be3b7c"
     },
     {
       "path": "site.js",
@@ -937,8 +937,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 22375,
-      "sha256": "2e9f563032722f0fcc842e2d91860edd990d2f76082ddd1565a2da486359b321"
+      "bytes": 22144,
+      "sha256": "423869ce4d8786b3a78ff2dece522c2c221f6e0478137b21873ecbb8a27cb09c"
     }
   ]
 }

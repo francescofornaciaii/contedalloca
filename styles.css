@@ -122,21 +122,18 @@
 .contact-layout .socials{grid-area:social;margin:0}
 .contact-logo{grid-area:emblem;display:block;width:100%;max-width:460px;height:auto;justify-self:end;align-self:center;transform:scaleX(-1)}
 @media(max-width:700px){
-  :root{--hero-logo-size:68px;--hero-logo-bottom:2px;--hero-next-gap:24px}
-  .hero{height:calc(125vw + 64px)}
-  .hero-meta{bottom:var(--hero-logo-bottom);grid-template-columns:repeat(2,120px);gap:24px}
-  .hero-logo{transform:translateY(-5px)}
-  .hero-signature-right .hero-logo{transform:translateY(-5px) scaleX(-1)}
-  .primary-nav{top:auto;bottom:calc(var(--hero-logo-bottom) + var(--hero-logo-size) * 4322 / 5229 / 2 - 30px);left:calc(var(--gutter) + 98px);right:calc(var(--gutter) + 98px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));height:60px;gap:0 8px;text-align:center}
-  .primary-nav a{font-size:9px;letter-spacing:.035em}
-  .best-section{padding-top:var(--hero-next-gap)}
-  .contact-layout{grid-template-columns:minmax(0,1fr) 46%;grid-template-areas:"title emblem" "email email" "social social";column-gap:12px;row-gap:30px;align-items:center;margin-top:30px}
-  .contact-logo{max-width:210px}
+  /* Restore the original mobile hero; keep one restrained emblem at contact. */
+  .hero{height:calc(125vw + 40px)}
+  .hero-meta{bottom:17px;display:flex;justify-content:space-between;gap:8px}
+  .hero-signature{align-items:flex-start;gap:0;text-align:left}
+  .hero-signature-right{align-items:flex-end;text-align:right}
+  .hero-logo{display:none}
+  .primary-nav{top:calc(125vw - 68px);bottom:auto;left:var(--gutter);right:var(--gutter);display:flex;justify-content:space-between;height:44px;gap:5px;text-align:center}
+  .primary-nav a{display:flex;align-items:center;min-height:44px;font-size:clamp(10px,2.6vw,12px);letter-spacing:.035em}
+  .best-section{padding-top:50px}
+  .contact-layout{grid-template-columns:minmax(0,1fr) clamp(56px,18vw,80px);grid-template-areas:"title emblem" "email email" "social social";column-gap:20px;row-gap:30px;align-items:center;margin-top:30px}
+  .contact-logo{max-width:80px}
 }
 @media(max-width:359px){
-  .hero{height:calc(125vw + 112px)}
-  .hero-meta{bottom:58px}
-  .primary-nav{left:var(--gutter);right:var(--gutter);bottom:4px;display:flex;justify-content:space-between;height:44px;gap:10px}
-  .primary-nav a{font-size:10px}
   .email-link{font-size:clamp(23px,7.2vw,26px)}
 }

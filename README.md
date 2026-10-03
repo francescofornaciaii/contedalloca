@@ -2,6 +2,8 @@
 
 Portfolio fotografico completo: 87 foto nell’archivio, 10 best shots e cinque categorie. Include hero desktop/mobile, soggetto a colori su sfondo in bianco e nero, loghi dell’oca e Cormorant Garamond locale con licenza.
 
+Su mobile la hero riprende la disposizione precedente ai loghi: foto e titolo, menu su una riga nella sfumatura e due etichette ai lati. Una sola oca, tra 58 e 80 px, accompagna inquiries nei contatti. La disposizione desktop resta invariata.
+
 ## Deploy su Vercel
 
 1. Importare il repository `francescofornaciaii/contedalloca` in Vercel.
