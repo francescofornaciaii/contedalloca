@@ -116,11 +116,11 @@
 .hero-signature-right .hero-logo{transform:translateY(-8px) scaleX(-1)}
 .primary-nav{height:44px;bottom:calc(var(--hero-logo-bottom) + var(--hero-logo-size) * 4322 / 5229 / 2 - 22px)}
 .best-section{padding-top:var(--hero-next-gap)}
-.contact-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,30%);grid-template-areas:"title emblem" "email ." "social .";column-gap:clamp(24px,6vw,120px);row-gap:40px;align-items:start;margin-top:50px}
-.contact-layout h2{grid-area:title;align-self:center;margin:0}
+.contact-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,30%);grid-template-areas:"title emblem" "email emblem" "social emblem";column-gap:clamp(24px,6vw,120px);row-gap:40px;align-items:start;margin-top:50px}
+.contact-layout h2{grid-area:title;margin:0}
 .contact-layout .email-link{grid-area:email;justify-self:start}
 .contact-layout .socials{grid-area:social;margin:0}
-.contact-logo{grid-area:emblem;display:block;width:clamp(140px,14vw,248px);max-width:100%;height:auto;justify-self:center;align-self:center;transform:scaleX(-1)}
+.contact-logo{grid-area:emblem;display:block;width:100%;max-width:460px;height:auto;justify-self:end;align-self:center;transform:scaleX(-1)}
 @media(max-width:700px){
   /* Keep the mobile hero compact, with one unmirrored emblem between its labels. */
   .hero{height:calc(125vw + 40px)}
@@ -132,8 +132,10 @@
   .primary-nav{top:calc(125vw - 68px);bottom:auto;left:var(--gutter);right:var(--gutter);display:flex;justify-content:space-between;height:44px;gap:5px;text-align:center}
   .primary-nav a{display:flex;align-items:center;min-height:44px;font-size:clamp(10px,2.6vw,12px);letter-spacing:.035em}
   .best-section{padding-top:50px}
-  .contact-layout{grid-template-columns:max-content minmax(0,1fr);grid-template-areas:"title emblem" "email email" "social social";column-gap:clamp(20px,6vw,36px);row-gap:30px;align-items:center;margin-top:30px}
-  .contact-logo{width:clamp(44px,14vw,72px);max-width:100%;justify-self:start}
+  .contact-section{position:relative}
+  .contact-layout{grid-template-columns:minmax(0,1fr);grid-template-areas:"title" "email" "social";column-gap:0;row-gap:30px;align-items:start;margin-top:30px}
+  .contact-layout h2{max-width:calc(100% - clamp(96px,32vw,160px) - 24px)}
+  .contact-logo{grid-area:auto;position:absolute;top:32px;right:var(--gutter);width:clamp(96px,32vw,160px);max-width:100%;pointer-events:none}
 }
 @media(max-width:359px){
   .email-link{font-size:clamp(23px,7.2vw,26px)}
