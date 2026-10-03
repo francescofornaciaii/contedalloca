@@ -7,6 +7,8 @@ Nella hero mobile una piccola oca non specchiata guarda verso destra,
 bilanciata tra Italian model e Available worldwide con una correzione
 verso sinistra di 6-9 px. Larghezza sui viewport verificati: 32-44 px.
 Sul viewport da 390 px: larghezza 39 px e spostamento a sinistra di 7.81 px.
+Il centro del logo e ora 12 px sopra il centro delle due etichette.
+La distanza dal menu resta di almeno 12 px sui sei viewport verificati.
 Un'altra oca compare accanto a inquiries nei contatti, larga da 58 a 80 px.
 
 Controlli correnti eseguiti nel browser Chromium con viewport espliciti:
