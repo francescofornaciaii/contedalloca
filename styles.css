@@ -144,5 +144,5 @@ html.lightbox-open{overflow:hidden;overscroll-behavior:none;scroll-behavior:auto
 body.lightbox-open{position:fixed;top:var(--lightbox-page-top);left:0;width:calc(100% - var(--lightbox-scrollbar-gap,0px));overflow:hidden}
 .lightbox{position:fixed;inset:0;overscroll-behavior:contain;touch-action:pinch-zoom}
 #lightbox-label{min-width:0;flex:1;overflow-wrap:anywhere}
-.lightbox #lightbox-close{display:grid;place-items:center;flex:none;width:48px;min-width:48px;height:48px;min-height:48px;padding:0;border:1px solid rgba(243,239,231,.22);border-radius:50%;background:rgba(243,239,231,.04);letter-spacing:0}
-#lightbox-close svg{display:block;width:26px;height:26px}
+.lightbox #lightbox-close{display:grid;place-items:center;flex:none;width:48px;min-width:48px;height:48px;min-height:48px;padding:0;border:0;border-radius:0;background:transparent;letter-spacing:0}
+#lightbox-close svg{display:block;width:26px;height:26px;stroke-width:1.4}

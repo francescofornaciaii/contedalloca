@@ -1,6 +1,6 @@
 {
   "model": "Emanuele Dall’Oca",
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "archive_photos": 87,
   "best_shots": 10,
   "categories": 5,
@@ -928,7 +928,7 @@
     {
       "path": "index.html",
       "bytes": 70042,
-      "sha256": "eebdf22abe12ce3299ab35472565ce57ed157aa587dcd3d46ba31aa4307b5014"
+      "sha256": "86491e53f736f22d7e109e71109c39b23abbacd4199736b42b2e5f38ec8fb2d8"
     },
     {
       "path": "site.js",
@@ -937,8 +937,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 23258,
-      "sha256": "38f2fce473a1ff22e99bcc8d840f873ba33fc0f8f9ab63135c558d6dc8af414b"
+      "bytes": 23233,
+      "sha256": "d1d86bc81d77a195c60e8b08ea829cff2a8127b04208106c4aaefa78c78990b7"
     }
   ]
 }

@@ -1,4 +1,12 @@
-VERIFICA GALLERIA - 5 OTTOBRE 2026
+AGGIORNAMENTO PULSANTE DI CHIUSURA - 6 OTTOBRE 2026
+
+X vettoriale isolata, senza cerchio, bordo o sfondo; tratto ridotto a 1.4.
+Area cliccabile conservata a 48x48 px. Indicatore di focus da tastiera conservato.
+Verifica in Chromium a 390x844 e 320x569: pulsante nel viewport, chiusura operativa,
+blocco della pagina rimosso e ritorno alla posizione salvata.
+Controllati precedente/successiva a 390x844. JavaScript della galleria invariato.
+
+VERIFICA GALLERIA PRECEDENTE - 5 OTTOBRE 2026
 
 Correzione del blocco dello scorrimento quando una fotografia e aperta.
 La pagina viene bloccata alla posizione corrente; chiudendo il visualizzatore
