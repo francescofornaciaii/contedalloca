@@ -6,6 +6,8 @@ Su mobile la hero mantiene foto e titolo, menu su una riga nella sfumatura e due
 
 Quando si apre una fotografia, il portfolio sottostante resta bloccato. Chiudendo la galleria si torna alla posizione salvata, con il focus sulla foto di partenza. La X vettoriale, senza cerchio né sfondo e con tratto sottile, ha un’area cliccabile invisibile di 48×48 px; restano disponibili swipe orizzontale, rotella, frecce e pulsanti precedente/successiva.
 
+Le frecce di galleria, email, social e ritorno in alto sono vettoriali e centrate con i testi. Menu, categorie, social e footer hanno aree cliccabili trasparenti di almeno 44×44 px. I comandi della galleria hanno altezza 48 px e su mobile sono leggermente più alti, con margine inferiore di 20 px più l’eventuale safe area.
+
 ## Deploy su Vercel
 
 1. Importare il repository `francescofornaciaii/contedalloca` in Vercel.
@@ -35,4 +37,4 @@ Contatto: `contedalloca@gmail.com`. Il link `mailto:` apre il gestore email conf
 
 `MANIFEST-SITO.json` elenca i 187 file del sito con dimensioni e SHA-256. La copia caricata coincide con il sito del pacchetto di consegna verificato.
 
-`VERIFICA-MOBILE.txt` riporta i controlli della galleria su sei viewport, i test sintetici delle gesture, le verifiche precedenti di hero e contatti e i limiti della verifica su dispositivi fisici.
+`VERIFICA-MOBILE.txt` riporta i controlli attuali su sette viewport, le verifiche precedenti della galleria e delle gesture, di hero e contatti e i limiti della verifica su dispositivi fisici.

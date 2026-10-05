@@ -9,7 +9,7 @@
   <link rel="preload" href="./images/hero-desktop-bg.webp" as="image" type="image/webp" media="(min-width: 701px)" fetchpriority="high">
   <link rel="preload" href="./images/hero-mobile-bg.webp" as="image" type="image/webp" media="(max-width: 700px)" fetchpriority="high">
   <link rel="preload" href="./fonts/cormorant-garamond-latin-variable-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="./styles.css?v=lightbox43">
+  <link rel="stylesheet" href="./styles.css?v=controls44">
   <script src="./site.js?v=lightbox2" defer></script>
 </head>
 <body>
@@ -566,13 +566,21 @@
       <p class="kicker">04 / Contact</p>
       <div class="contact-layout">
         <h2 id="contact-title">Inquiries</h2>
-        <a class="email-link" href="mailto:contedalloca@gmail.com">contedalloca@gmail.com <span aria-hidden="true">↗</span></a>
-        <div class="socials"><a href="https://www.instagram.com/emadalloo_/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.tiktok.com/@emadalloo_" target="_blank" rel="noopener noreferrer">TikTok ↗</a></div>
+        <a class="email-link" href="mailto:contedalloca@gmail.com"><span>contedalloca@gmail.com</span><svg class="ui-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19L19 5M5 5h14v14"/></svg></a>
+        <div class="socials"><a href="https://www.instagram.com/emadalloo_/" target="_blank" rel="noopener noreferrer"><span>Instagram</span><svg class="ui-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19L19 5M5 5h14v14"/></svg></a><a href="https://www.tiktok.com/@emadalloo_" target="_blank" rel="noopener noreferrer"><span>TikTok</span><svg class="ui-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19L19 5M5 5h14v14"/></svg></a></div>
         <img class="contact-logo" src="./images/oca-white-site-v2.png" width="5229" height="4322" alt="Flying goose emblem" loading="lazy" decoding="async">
       </div>
     </section>
   </main>
-  <footer class="footer"><span class="footer-name">© Emanuele Dall’Oca</span><a href="#top">Back to top ↑</a></footer>
-  <dialog id="lightbox" class="lightbox" aria-label="Photograph viewer"><div class="lightbox-toolbar"><span id="lightbox-label"></span><button type="button" id="lightbox-close" aria-label="Close photograph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><img id="lightbox-image" alt=""><div class="lightbox-controls"><button type="button" id="lightbox-prev" aria-label="Previous photograph">← Previous</button><span id="lightbox-count" aria-live="polite"></span><button type="button" id="lightbox-next" aria-label="Next photograph">Next →</button></div></dialog>
+  <footer class="footer"><span class="footer-name">© Emanuele Dall’Oca</span><a href="#top"><span>Back to top</span><svg class="ui-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a></footer>
+  <dialog id="lightbox" class="lightbox" aria-label="Photograph viewer">
+    <div class="lightbox-toolbar"><span id="lightbox-label"></span><button type="button" id="lightbox-close" aria-label="Close photograph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <img id="lightbox-image" alt="">
+    <div class="lightbox-controls">
+      <button type="button" id="lightbox-prev" aria-label="Previous photograph"><svg class="ui-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><span>Previous</span></button>
+      <span id="lightbox-count" aria-live="polite"></span>
+      <button type="button" id="lightbox-next" aria-label="Next photograph"><span>Next</span><svg class="ui-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </div>
+  </dialog>
 </body>
 </html>

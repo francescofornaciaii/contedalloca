@@ -1,4 +1,24 @@
-AGGIORNAMENTO PULSANTE DI CHIUSURA - 6 OTTOBRE 2026
+MICROAGGIUSTAMENTI DEI CONTROLLI - 6 OTTOBRE 2026
+
+Frecce vettoriali sottili per galleria, email, social e ritorno in alto,
+centrate verticalmente rispetto ai testi. Testi, font e colori conservati.
+Menu, categorie, social e footer hanno aree cliccabili trasparenti di almeno 44x44 px.
+Precedente e successiva hanno altezza 48 px e larghezza minima 96 px.
+Su mobile i comandi della galleria hanno un margine inferiore di 20 px,
+piu l'eventuale safe area del dispositivo; la loro linea centrale e circa 20 px
+piu alta rispetto alla versione precedente. Nessuna cornice aggiunta.
+
+Verifica in Chromium su sette viewport:
+320x569, 360x640, 390x844, 430x932, 700x1244, 844x390 e 1920x1080.
+Esiti: nessuno scorrimento orizzontale o sovrapposizione dei tocchi nel menu;
+email entro il viewport; frecce/testi con scarto dei centri inferiore a 0.01 px;
+pulsanti della galleria entro il viewport, precedente/successiva funzionanti,
+pagina bloccata durante la visualizzazione e posizione ripristinata alla chiusura.
+Le aree trasparenti sono state cliccate oltre il testo per editorial e Back to top:
+entrambi i collegamenti hanno raggiunto la destinazione prevista.
+JavaScript della galleria invariato. Prove nel browser, non su touch fisico.
+
+AGGIORNAMENTO PULSANTE DI CHIUSURA PRECEDENTE - 6 OTTOBRE 2026
 
 X vettoriale isolata, senza cerchio, bordo o sfondo; tratto ridotto a 1.4.
 Area cliccabile conservata a 48x48 px. Indicatore di focus da tastiera conservato.

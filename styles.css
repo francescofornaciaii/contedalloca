@@ -146,3 +146,16 @@ body.lightbox-open{position:fixed;top:var(--lightbox-page-top);left:0;width:calc
 #lightbox-label{min-width:0;flex:1;overflow-wrap:anywhere}
 .lightbox #lightbox-close{display:grid;place-items:center;flex:none;width:48px;min-width:48px;height:48px;min-height:48px;padding:0;border:0;border-radius:0;background:transparent;letter-spacing:0}
 #lightbox-close svg{display:block;width:26px;height:26px;stroke-width:1.4}
+.ui-arrow{display:block;flex:none;width:14px;height:14px;pointer-events:none}
+.email-link{display:inline-flex;align-items:center;gap:.25em;min-height:44px}
+.email-link>span{min-width:0}
+.email-link .ui-arrow{width:.75em;height:.75em}
+.socials a,.footer a{display:inline-flex;align-items:center;gap:7px}
+.footer{align-items:center}
+.primary-nav a,.category-nav a,.socials a,.footer a{position:relative}
+.primary-nav a::before,.category-nav a::before,.socials a::before,.footer a::before{content:"";position:absolute;top:50%;left:-8px;right:-8px;height:44px;transform:translateY(-50%)}
+.primary-nav a::before{left:-4px;right:-4px}
+.lightbox-controls button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:96px;min-height:48px;padding:0 8px;line-height:1}
+.lightbox-controls .ui-arrow{width:16px;height:16px}
+#lightbox-count{min-width:44px;text-align:center;line-height:1;font-variant-numeric:tabular-nums}
+@media(max-width:700px){.lightbox{padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}}
