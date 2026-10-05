@@ -1,4 +1,24 @@
-VERIFICA RESPONSIVE - 3 OTTOBRE 2026
+VERIFICA GALLERIA - 5 OTTOBRE 2026
+
+Correzione del blocco dello scorrimento quando una fotografia e aperta.
+La pagina viene bloccata alla posizione corrente; chiudendo il visualizzatore
+si ripristinano posizione, larghezza della pagina e focus sulla foto di partenza.
+Il pulsante di chiusura mostra solo una X vettoriale, con area cliccabile 48x48 px.
+
+Controlli della galleria in Chromium su sei viewport:
+320x569, 360x640, 390x844, 430x932, 844x390 e 1920x1080.
+Esiti: blocco pagina durante PageDown e navigazione, avanzamento con frecce,
+chiusura con X ed Escape, posizione ripristinata e blocco rimosso in tutti i formati.
+Verificati anche rotella, pulsanti precedente/successiva, chiusura nello spazio
+nero e ripresa dello scorrimento del portfolio dopo la chiusura.
+Didascalia commerciale lunga, X e controlli restano dentro il viewport.
+
+Verifica dei gestori di gesture con input sintetici sul JavaScript di produzione:
+swipe orizzontale avanti/indietro, movimento verticale bloccato, diagonale verticale,
+gesture annullata e pinch senza cambio foto involontario. Rotella avanti/indietro.
+Questa prova delle gesture non e una prova di touch fisico o di Safari iOS.
+
+VERIFICA RESPONSIVE PRECEDENTE - 3 OTTOBRE 2026
 Revisione dei loghi nella hero mobile e nei contatti
 
 La hero mobile riprende la disposizione precedente ai loghi:

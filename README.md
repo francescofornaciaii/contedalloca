@@ -4,6 +4,8 @@ Portfolio fotografico completo: 87 foto nell’archivio, 10 best shots e cinque 
 
 Su mobile la hero mantiene foto e titolo, menu su una riga nella sfumatura e due etichette ai lati. Una piccola oca non specchiata, larga 32–44 px sui formati verificati, è bilanciata visivamente tra Italian model e Available worldwide con uno spostamento di 6–9 px verso sinistra. Il bordo inferiore del logo è allineato al bordo inferiore delle etichette. Nei contatti l’oca specchiata occupa l’angolo superiore destro su mobile, con larghezza CSS di 96–160 px, centrata nello spazio tra la fine di inquiries e il bordo destro dello schermo. Su desktop è ripristinata la disposizione precedente: oca grande fino a 460 px, allineata a destra e centrata sul blocco dei contatti.
 
+Quando si apre una fotografia, il portfolio sottostante resta bloccato. Chiudendo la galleria si torna alla posizione salvata, con il focus sulla foto di partenza. La X vettoriale ha un’area cliccabile di 48×48 px; restano disponibili swipe orizzontale, rotella, frecce e pulsanti precedente/successiva.
+
 ## Deploy su Vercel
 
 1. Importare il repository `francescofornaciaii/contedalloca` in Vercel.
@@ -33,4 +35,4 @@ Contatto: `contedalloca@gmail.com`. Il link `mailto:` apre il gestore email conf
 
 `MANIFEST-SITO.json` elenca i 187 file del sito con dimensioni e SHA-256. La copia caricata coincide con il sito del pacchetto di consegna verificato.
 
-`VERIFICA-MOBILE.txt` riporta i controlli dei contatti su sei viewport mobile del browser, il confronto del CSS per il ripristino desktop, le verifiche precedenti della hero e i limiti della verifica su dispositivi fisici.
+`VERIFICA-MOBILE.txt` riporta i controlli della galleria su sei viewport, i test sintetici delle gesture, le verifiche precedenti di hero e contatti e i limiti della verifica su dispositivi fisici.
